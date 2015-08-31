@@ -1,9 +1,6 @@
 <nav class="navbar navbar-inverse nav-tabs" style="background-color:#555; border-radius:inherit;border-style:hidden;border-style:hidden;width:100%;">
     <div class="container-fluid">
         <div class="container">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="bodyHTML.php" style="font-family:Georgia, serif;" >Website for cars!</a>
-            </div>
             <div class="">
                 <ul class="nav navbar-nav">
                     <li class="<?php
@@ -55,7 +52,7 @@
             <button type="submit" class="btn btn-default glyphicon glyphicon-search" style="height:40px;width:50px;margin-top:-5px;border-radius:10px;"></button>
         </form>
         <a class="navbar-brand myLogo" href="bodyHTML.php">
-            <img src="assets/images/pepsi-logo.png" style="height:80px; width: 280px; margin-top:-39px;border-radius:25px;" />
+            <img src="assets/images/logo.jpg" style="height:80px; width: 280px; margin-top:-39px;border-radius:25px;" />
         </a>
     </div>
 
@@ -74,7 +71,6 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Brand</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
