@@ -8,7 +8,7 @@ $(document).ready(function() {
        if (typeof name === "undefined" || name === null || name === "") {
            $("#name-error-label").text("Полето трябва да бъде попълнено.");
        } else {
-           $("#login-form").submit();
+           $(this).unbind('submit').submit();
        }
    });
 });

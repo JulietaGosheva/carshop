@@ -40,13 +40,13 @@ if (isset($_POST)) {
 </div>';
         }
     } else {
-        echo 'error';
+        echo $error;
     }
 }
 ?>
 
 <?php
 
-include 'footer.php'
+include 'footer.php';
 ?>
 

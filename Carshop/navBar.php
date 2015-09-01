@@ -8,7 +8,7 @@
                         echo "active";
                     }
                     ?>"><a href="#" style="font-family:'Arial Black', Gadget, sans-serif;">За нас</a></li>
-                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" style="font-family:'Arial Black', Gadget, sans-serif">Информация<span class="caret"></span></a>
+                    <li class="dropdown"><a class="dropdown" data-toggle="dropdown" href="#" style="font-family:'Arial Black', Gadget, sans-serif;">Информация<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Плащане</a></li>
                             <li><a href="#">Доставки</a></li>
@@ -76,13 +76,90 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li class="active" style="font-family:'Arial Black', Gadget, sans-serif"><a href="#">Тунинг <span class="sr-only">(current)</span></a></li>
-                <li><a href="#" style="font-family:'Arial Black', Gadget, sans-serif">ЕКСТЕРИОР</a></li>
-                <li><a href="#" style="font-family:'Arial Black', Gadget, sans-serif">АЕРОДИНАМИКА</a></li>
-                <li><a href="#" style="font-family:'Arial Black', Gadget, sans-serif">ТУНИНГ СВЕТЛИНИ</a></li>
-                <li><a href="#" style="font-family:'Arial Black', Gadget, sans-serif">ЕЛЕКТРОНИКА</a></li>
-                <li><a href="#" style="font-family:'Arial Black', Gadget, sans-serif">ПОВЕЧЕ МОЩНОСТ</a></li>
-                <li><a href="#" style="font-family:'Arial Black', Gadget, sans-serif">КСЕНОН</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-family:'Arial Black', Gadget, sans-serif">ТУНИНГ<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-family:'Arial Black', Gadget, sans-serif">ЕЛЕКТРОНИКА<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-family:'Arial Black', Gadget, sans-serif">АЕРОДИНАМИКА<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-family:'Arial Black', Gadget, sans-serif">ТУНИНГ СВЕТЛИНИ<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-family:'Arial Black', Gadget, sans-serif">ЕЛЕКТРОНИКА<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-family:'Arial Black', Gadget, sans-serif">ПОВЕЧЕ МОЩНОСТ<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-family:'Arial Black', Gadget, sans-serif">КСЕНОН<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-family:'Arial Black', Gadget, sans-serif">ИНТЕРИОР<span class="caret"></span></a>
                     <ul class="dropdown-menu">
