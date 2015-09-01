@@ -1,13 +1,14 @@
 
-#wrapper {
+#content {
     padding-bottom: -150px;   /* Height of the footer element */
 }
 
 #footer {
-    background: #6699CC;
+    background: #555;
     width: 100%;
     position: absolute;
     color: #eee;
     padding:20px;
-    height: 150px;
+    max-height: 150px;
+    bottom: 0px;
 }

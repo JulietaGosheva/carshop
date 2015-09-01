@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse nav-tabs" style="background-color:#555; border-radius:inherit;border-style:hidden;border-style:hidden;width:100%;">
+<nav class="navbar navbar-inverse nav-tabs" style="background-color:#555; border-radius:inherit; width:100%;">
     <div class="container-fluid">
         
         <div class="navbar-header">
@@ -52,7 +52,7 @@
     </div>
 </nav>
 
-<div style="min-height: 100px; margin-top: -25px; margin-bottom: 20px; background: #6699CC">
+<div style="min-height: 100px; margin-top: -25px; background: #6699CC">
     <table style="min-width: 100%;">
         <th></th>
         <th></th>
@@ -65,7 +65,7 @@
             <td style="float:right; margin-right: 25px; padding-top: 30px;">
                 <form class="navbar-form navbar-right " role="search">
                     <div class="form-group">
-                        <input type="text" class="form-control" style="height:33px;width:290px;padding:17px;border-radius:10px;" placeholder="Search">
+                        <input type="text" class="form-control" style="height:33px;width:290px;padding:17px;border-radius:10px;" placeholder="Търси">
                     </div>
                     <button type="submit" class="btn btn-default glyphicon glyphicon-search" style="height:40px;width:50px;margin-top:-5px;border-radius:10px;"></button>
                 </form>
@@ -74,7 +74,7 @@
     </table>
 </div>
 
-<nav class="navbar navbar-default"style="margin-top:-20px;border-radius:inherit;background-color:#6699CC;border-style:hidden;padding:-31.98px;">
+<nav class="navbar navbar-default"style="border-radius:inherit; background-color:#6699CC; border-style:hidden;">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -88,7 +88,7 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
-            <ul class="nav navbar-nav">
+            <ul class=" nav navbar-nav">
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-family:'Arial Black', Gadget, sans-serif">ТУНИНГ<span class="caret"></span></a>
                     <ul class="dropdown-menu">
@@ -189,4 +189,5 @@
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
+<div id="content">
 

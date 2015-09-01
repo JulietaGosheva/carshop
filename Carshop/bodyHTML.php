@@ -15,15 +15,13 @@ include 'navBar.php';
             <div class="item active">
                 <img style="height:300px;width:600px;"src="assets/images/kola4.jpg" alt="...">
                 <div class="carousel-caption">
-                    <h3 style="color:black">Кола 1</h3>
-                    <p1>бля бля бля</p1>
+                    
                 </div>
             </div>
             <div class="item">
                 <img style="height:300px;width:600px;;" src="assets/images/kola3.jpg" alt="...">
                 <div class="carousel-caption">
-                    <h3 style="color:black">Кола 1</h3>
-                    <p1>бля бля бля</p1>
+
                 </div>
             </div>
         </div>
@@ -39,7 +37,7 @@ include 'navBar.php';
         </a>
     </div>
 
-    <div class="container">
+<!--    <div class="container">
         <br><br>
         <div class="row">
             <div class="col-sm-offset-4 col-sm-5">
@@ -53,6 +51,7 @@ include 'navBar.php';
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
+
 <?php include 'footer.php'; ?>
 
