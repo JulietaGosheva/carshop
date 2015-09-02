@@ -37,7 +37,7 @@ include 'navBar.php';
         </a>
     </div>
 
-<!--    <div class="container">
+    <div class="container">
         <br><br>
         <div class="row">
             <div class="col-sm-offset-4 col-sm-5">
@@ -51,7 +51,7 @@ include 'navBar.php';
                 </div>
             </div>
         </div>
-    </div>-->
+    </div>
 
 <?php include 'footer.php'; ?>
 

@@ -1,6 +1,14 @@
+html, body {
+    height: 100%;
+}
+
+#wrapper {
+    min-height: 100%;
+    position: relative;
+}
 
 #content {
-    padding-bottom: -150px;   /* Height of the footer element */
+    padding-bottom: 150px;   /* Height of the footer element */
 }
 
 #footer {
@@ -9,6 +17,6 @@
     position: absolute;
     color: #eee;
     padding:20px;
-    max-height: 150px;
+    min-height: 150px;
     bottom: 0px;
 }

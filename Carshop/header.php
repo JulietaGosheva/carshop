@@ -6,4 +6,5 @@
         <link rel="stylesheet" type="text/css" href="assets/css/bodyCSS.css"/>
     </head>
     <body style="background-color:#E8E8E8">
-
+        <div id="wrapper">
+            <div id="content">

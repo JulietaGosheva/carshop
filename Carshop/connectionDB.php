@@ -1,8 +1,11 @@
 <?php
+$servername = 'localhost';
+$username = 'root';
+$password = '';
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+$conn = new mysqli($servername, $username, $password, 'storecars');
+mysqli_set_charset($conn, "utf8");
+if ($conn->connect_error) {
+    echo 'Connection Failed:' . $conn->connect_error;
+}
+?>

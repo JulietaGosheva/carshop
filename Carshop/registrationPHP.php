@@ -8,12 +8,16 @@ include 'connectionDB.php';
 
 if (isset($_POST)) {
     $userName = stripslashes($_POST['userName']);
+    $userName = trim($_POST['userName']);
     $userName = mysql_real_escape_string($_POST['userName']);
     $pass = stripslashes($_POST['pass']);
+    $pass = trim($_POST['pass']);
     $pass = mysql_real_escape_string($_POST['pass']);
     $reppass = stripslashes($_POST['reppass']);
+    $reppass = trim($_POST['reppass']);
     $reppass = mysql_real_escape_string($_POST['reppass']);
     $emailAdd = stripslashes($_POST['emailAdd']);
+    $emailAdd = trim($_POST['emailAdd']);
     $emailAdd = mysql_real_escape_string($_POST['emailAdd']);
     $error = '';
     if ($userName === '') {
