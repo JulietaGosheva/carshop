@@ -4,8 +4,6 @@ include 'header.php';
 include 'navBar.php';
 include 'connectionDB.php';
 
-
-
 if (isset($_POST)) {
     $userName = stripslashes($_POST['userName']);
     $userName = trim($_POST['userName']);
@@ -20,6 +18,7 @@ if (isset($_POST)) {
     $emailAdd = trim($_POST['emailAdd']);
     $emailAdd = mysql_real_escape_string($_POST['emailAdd']);
     $error = '';
+    
     if ($userName === '') {
         $error .= 'Моля въведете име в полето!';
     }
