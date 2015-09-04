@@ -10,14 +10,14 @@ include 'navBar.php';
         <div class="form-group">
             <label for="inputName3" class="col-sm-1 col-sm-offset-3  control-label">Име:</label>
             <div class="col-sm-4">
-                <input type="Name" class="form-control" id="name-field" placeholder="Име...">
+                <input type="Name" name="userName" class="form-control" id="name-field" placeholder="Име...">
             </div>
             <label id="name-error-label" style="color:#d9534f;" for="inputPassword3" class="col-sm-4 col-sm-offset-3  control-label"></label>
         </div>
         <div class="form-group">
             <label  for="inputPassword3" class="col-sm-1 col-sm-offset-3  control-label">Парола:</label>
             <div class="col-sm-4">
-                <input type="password"  class="form-control" id="password-field" placeholder="Парола...">
+                <input type="password" name="passWord" class="form-control" id="password-field" placeholder="Парола...">
             </div>
             <label id="pass-error-label" style="color:#d9534f;" for="inputPassword3" class="col-sm-4 col-sm-offset-3  control-label"></label>
         </div>

@@ -13,5 +13,8 @@ $(document).ready(function () {
             $("#pass-error-label").text("Полето трябва да бъде попълнено.");
             hasError = true;
         }
+        if (hasError === false) {
+            $("#login-form").unbind("submit").submit();
+        }
     });
 });
