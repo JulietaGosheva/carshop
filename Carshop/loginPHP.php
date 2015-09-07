@@ -1,10 +1,8 @@
 <?php
-
-include 'header.php';
+session_start();
 if (isset($_SESSION['username'])) {
     header('Location:loginsuccess.php');
 }
-include 'navBar.php';
 include 'connectionDB.php';
 
 if (isset($_POST)) {
@@ -31,18 +29,12 @@ if (isset($_POST)) {
             $_SESSION['ID'] = $row['ID'];
             $_SESSION['username'] = $row['username'];
             $_SESSION['groups'] = $row['groups'];
-            header('Location:loginsuccess.php');
+            header('Location: loginsuccess.php');
         } else {
-            echo 'nesyshtest potrebitel';
+           header('Location:loginError.php');
         }
     } else {
         echo $error;
     }
 }
-?>
-
-
-<?php
-
-include 'footer.php';
 ?>
