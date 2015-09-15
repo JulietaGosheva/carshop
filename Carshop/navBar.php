@@ -1,6 +1,6 @@
 <nav class="navbar navbar-inverse nav-tabs" style="background-color:#555; border-radius:inherit; width:100%;">
     <div class="container-fluid">
-        
+
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
@@ -9,13 +9,13 @@
                 <span class="icon-bar"></span>
             </button>
         </div>
-        
+
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li class="<?php
-                    if ($currentPage === "") {
-                        echo "active";
-                    }
+                if ($currentPage === "") {
+                    echo "active";
+                }
                 ?>"><a href="#" style="font-family:'Arial Black', Gadget, sans-serif;">За нас</a></li>
                 <li class="dropdown"><a class="dropdown" data-toggle="dropdown" href="#" style="font-family:'Arial Black', Gadget, sans-serif;">Информация<span class="caret"></span></a>
                     <ul class="dropdown-menu">
@@ -26,26 +26,26 @@
                     </ul>
                 </li>
                 <li class="<?php
-                    if ($currentPage === "") {
-                        echo "active";
-                    }
+                if ($currentPage === "") {
+                    echo "active";
+                }
                 ?>"><a href="#" style="font-family:'Arial Black', Gadget, sans-serif">Контакти</a></li>
                 <li class="<?php
-                    if ($currentPage === "") {
-                        echo "active";
-                    }
+                if ($currentPage === "") {
+                    echo "active";
+                }
                 ?>"><a href="#" style="font-family:'Arial Black', Gadget, sans-serif">Нашите магазини</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li class="<?php
-                    if ($currentPage === "registration.php") {
-                        echo "active";
-                    }
+                if ($currentPage === "registration.php") {
+                    echo "active";
+                }
                 ?>"><a href="registration.php" style="font-family:'Arial Black', Gadget, sans-serif;color:#d9534f"><span class="glyphicon glyphicon-user"></span> Регистрация</a></li>
                 <li class="<?php
-                    if ($currentPage === "login.php") {
-                        echo "active";
-                    }
+                if ($currentPage === "login.php") {
+                    echo "active";
+                }
                 ?>"><a href="login.php" style="font-family:'Arial Black', Gadget, sans-serif;color:#337ab7"><span class="glyphicon glyphicon-log-in"></span> Вход</a></li>
             </ul>
         </div>

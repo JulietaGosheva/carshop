@@ -42,16 +42,17 @@ include 'navBar.php';
         <div class="row">
             <div class="col-sm-offset-4 col-sm-5">
                 <div class="thumbnail">
-                    <img src="..." alt="...">
+                    <img src="assets/images/logo.jpg" alt="...">
                     <div class="caption">
                         <h3>Thumbnail label</h3>
                         <p>...</p>
-                        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                        <p><a href="#" class="btn btn-primary glyphicon glyphicon-search" role="button"></a> <a href="#" class="btn btn-default" role="button">КУПИ</a></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 
 <?php include 'footer.php'; ?>
 

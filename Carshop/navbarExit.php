@@ -41,11 +41,11 @@
                 if ($currentPage === "registration.php") {
                     echo "active";
                 }
-                ?>"><a class="dropdown" data-toggle="dropdown" href="#" style="font-family:'Arial Black', Gadget, sans-serif;color:#d9534f"><span class="glyphicon glyphicon-user"></span> Редактиране</a>
+                ?>"><a class="dropdown" data-toggle="dropdown" href="#" style="font-family:'Arial Black', Gadget, sans-serif;color:#d9534f"><span class="glyphicon glyphicon-user"></span><?php echo " " . $_SESSION['username']; ?></a>
                     <ul class="dropdown-menu">
                         <li><a href="#">Промяна на лична информация</a></li>
-                        <li><a href="#">Промяна на парола</a></li>
-                        <li><a href="#"></a></li>
+                        <li><a href="changePass.php">Промяна на парола</a></li>
+                        <li><a href="#">Виж количка</a></li>
                         <li><a href="#"></a></li>
                     </ul>
                 </li>
